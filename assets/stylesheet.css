@@ -1,0 +1,34 @@
+/*Select the body element and set the font-family property to "Arial, sans-serif"
+Set the font-size to 38px for all H1 elements
+Set the font-size to 32px for all H2 elements
+Add a class to your unordered list of ingredients called "ingredients-list"
+Add a list-style property with a value of "square inside" to all elements with the "ingredients-list" class
+Add another list-style of your choosing to all ordered list elements
+Change the width of the logo image to 100px by selecting all img elements that are immediate children of the header element*/
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+  list-style: circle inside;
+}
+
+header > img {
+  width: 100px;
+}
+
+header li a {
+  color: orange;
+}
