@@ -9,5 +9,6 @@ describe Card do
       expect(card.kind).to eq(:Q)
       expect(card.value).to eq(10)
     end
+
   end
 end
